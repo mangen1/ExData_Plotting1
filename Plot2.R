@@ -33,7 +33,8 @@ plot2 <- plot(Date_Time, Global_Active_Power, type = "l", lty = "solid", xlab = 
 
 plot2
 
-
+dev.copy(png, file="plot2.png", height=480, width=480)
+dev.off()
 
 
 
